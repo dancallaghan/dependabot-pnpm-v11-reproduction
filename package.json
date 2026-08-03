@@ -1,0 +1,28 @@
+{
+  "name": "dependabot-pnpm-v11-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "10.34.5",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/monitoring": "5.4.0",
+    "@google-cloud/pubsub": "5.3.1",
+    "prisma": "7.8.0"
+  },
+  "devDependencies": {
+    "jest": "30.4.2"
+  }
+}
