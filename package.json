@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@11.18.0",
   "devEngines": {
     "runtime": {
       "name": "node",
@@ -17,13 +17,13 @@
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "10.34.5",
+      "version": "11.18.0",
       "onFail": "error"
     }
   },
   "engines": {
     "node": ">=24 <25",
-    "pnpm": ">=10 <11"
+    "pnpm": ">=11 <12"
   },
   "type": "module",
   "dependencies": {
