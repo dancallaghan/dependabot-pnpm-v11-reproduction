@@ -211,8 +211,8 @@ importers:
         specifier: 6.1.0
         version: 6.1.0
       '@google-cloud/monitoring':
-        specifier: 5.4.0
-        version: 5.4.0(supports-color@8.1.1)
+        specifier: 6.0.0
+        version: 6.0.0(supports-color@8.1.1)
       '@google-cloud/pubsub':
         specifier: 5.3.1
         version: 5.3.1(supports-color@8.1.1)
@@ -438,9 +438,9 @@ packages:
   '@fastify/proxy-addr@5.1.0':
     resolution: {integrity: sha512-INS+6gh91cLUjB+PVHfu1UqcB76Sqtpyp7bnL+FYojhjygvOPA9ctiD/JDKsyD9Xgu4hUhCSJBPig/w7duNajw==}
 
-  '@google-cloud/monitoring@5.4.0':
-    resolution: {integrity: sha512-ILb/adzcSOiC4eK/uN8OaHp9EvC585IV2ANWBPp3djRWBxZWz2MXSsRVRsOIa6PsiWi2biDZRkS2iPUliQ3TOA==}
-    engines: {node: '>=18'}
+  '@google-cloud/monitoring@6.0.0':
+    resolution: {integrity: sha512-11CltWBC0rMUw8dw+t1npCF2u4+NuESmbrPoV3p1Unu3C4HRjkmPePmIBmonX7IlhwCNBc/xFB+HWLEpcZWKvA==}
+    engines: {node: '>=22'}
 
   '@google-cloud/paginator@6.0.2':
     resolution: {integrity: sha512-S60tHt4oHsVvviXY5+Ti5Reg69y5WjBglwRjJqBiVdRHxniW/L+Mc3mp7yNMcxr2Gi6DkDO4aIognNWcUxf3Vg==}
@@ -809,6 +809,9 @@ packages:
 
   '@types/node@26.1.1':
     resolution: {integrity: sha512-nxAkRSVkN1Y0JC1W8ky/fTfkGsMmcrRsbx+3XoZE+rMOX71kLYTV7fLXpqud1GpbpP5TuffXFqfX7fH2GgZREw==}
+
+  '@types/node@26.2.0':
+    resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
 
   '@types/react@19.2.17':
     resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
@@ -1398,6 +1401,10 @@ packages:
   google-gax@5.0.7:
     resolution: {integrity: sha512-EhiqaWWJ+9h7sCcKJTsoo6tMcjokVHhWsbSuWCnZJT4vIBP3y4mAoFLnt9SzgkVZeq24ZsFaArr06nnYYku2yA==}
     engines: {node: '>=18'}
+
+  google-gax@6.0.0:
+    resolution: {integrity: sha512-yz7YLS8KSTf/VY37JUTBo62AXRVnQXhlLKmIDCKFIQzXhYyxbzrBJYNp+KUQpZPLplqcHOpXkpNi04OMwoNNDA==}
+    engines: {node: '>=22'}
 
   google-logging-utils@1.1.3:
     resolution: {integrity: sha512-eAmLkjDjAFCVXg7A1unxHsLf961m6y17QFqXqAXGj/gVkKFrEICfStRfwUlGNfeCEjNRa32JEWOUTlYXPyyKvA==}
@@ -1991,6 +1998,10 @@ packages:
     resolution: {integrity: sha512-qqoc4kkGgP9cmQDWELlOpAmfgJOg0Yi7MT82ZjiPWu451ayju4itwomjM4/dBEliify8C1b3tSaeCOldugtwPQ==}
     engines: {node: '>=18'}
 
+  retry-request@8.0.4:
+    resolution: {integrity: sha512-pI6/7eabUYkZxamkOq0g0uMxKLLGnjzhefY+vL8bVXag5rto4OU2YBTPytWLuHH7aEKD6fn7kJycQfid0Mwnkw==}
+    engines: {node: '>=18'}
+
   retry@0.12.0:
     resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
     engines: {node: '>= 4'}
@@ -2146,6 +2157,10 @@ packages:
 
   teeny-request@10.1.3:
     resolution: {integrity: sha512-5yDliI1uWkYPo7W+Zvrxg6YmoWuj5iC5EydewqrRTvc68nyMTZhlPPlLg6cptUGfbQAb+N9XDPDPzF6N081lug==}
+    engines: {node: '>=18'}
+
+  teeny-request@10.1.4:
+    resolution: {integrity: sha512-R1Cg4Vu0UULeDfHL/kjABLaTW++9yD/B6n2g48y5dJ04hsEaxcfmAqbNDzNsbqAYJyIpZafjklLG9YxRu9uzOg==}
     engines: {node: '>=18'}
 
   test-exclude@6.0.0:
@@ -2494,9 +2509,9 @@ snapshots:
       '@fastify/forwarded': 3.0.1
       ipaddr.js: 2.4.0
 
-  '@google-cloud/monitoring@5.4.0(supports-color@8.1.1)':
+  '@google-cloud/monitoring@6.0.0(supports-color@8.1.1)':
     dependencies:
-      google-gax: 5.0.7(supports-color@8.1.1)
+      google-gax: 6.0.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -2993,6 +3008,10 @@ snapshots:
       '@types/istanbul-lib-report': 3.0.3
 
   '@types/node@26.1.1':
+    dependencies:
+      undici-types: 8.3.0
+
+  '@types/node@26.2.0':
     dependencies:
       undici-types: 8.3.0
 
@@ -3567,6 +3586,21 @@ snapshots:
       protobufjs: 7.6.5
       retry-request: 8.0.3(supports-color@8.1.1)
       rimraf: 5.0.10
+    transitivePeerDependencies:
+      - supports-color
+
+  google-gax@6.0.0(supports-color@8.1.1):
+    dependencies:
+      '@grpc/grpc-js': 1.14.4
+      '@grpc/proto-loader': 0.8.1
+      duplexify: 4.1.3
+      google-auth-library: 10.5.0(supports-color@8.1.1)
+      google-logging-utils: 1.1.3
+      node-fetch: 3.3.2
+      object-hash: 3.0.0
+      proto3-json-serializer: 3.0.4
+      protobufjs: 7.6.5
+      retry-request: 8.0.4(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4260,7 +4294,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.2
-      '@types/node': 26.1.1
+      '@types/node': 26.2.0
       long: 5.3.2
 
   pure-rand@6.1.0: {}
@@ -4315,6 +4349,13 @@ snapshots:
     dependencies:
       extend: 3.0.2
       teeny-request: 10.1.3(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - supports-color
+
+  retry-request@8.0.4(supports-color@8.1.1):
+    dependencies:
+      extend: 3.0.2
+      teeny-request: 10.1.4(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4441,6 +4482,15 @@ snapshots:
       '@pkgr/core': 0.3.6
 
   teeny-request@10.1.3(supports-color@8.1.1):
+    dependencies:
+      http-proxy-agent: 7.0.2(supports-color@8.1.1)
+      https-proxy-agent: 7.0.6(supports-color@8.1.1)
+      node-fetch: 3.3.2
+      stream-events: 1.0.5
+    transitivePeerDependencies:
+      - supports-color
+
+  teeny-request@10.1.4(supports-color@8.1.1):
     dependencies:
       http-proxy-agent: 7.0.2(supports-color@8.1.1)
       https-proxy-agent: 7.0.6(supports-color@8.1.1)
