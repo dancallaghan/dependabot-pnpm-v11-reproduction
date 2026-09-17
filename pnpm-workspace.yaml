@@ -5,3 +5,5 @@ allowBuilds:
   unrs-resolver: true
 
 minimumReleaseAge: 20160 # 14 days
+
+pmOnFail: ignore
